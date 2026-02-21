@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Consultorio Dental - Dra. Ivonne Soto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f9fb;
+      text-align: center;
+    }
+
+    header {
+      background-color: #00a8cc;
+      color: white;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #00a8cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #e0f4f8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dra. Ivonne Soto</h1>
+  <p>Odontología Integral</p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>Servicios</h2>
+    <p>Limpieza dental</p>
+    <p>Blanqueamiento</p>
+    <p>Ortodoncia</p>
+  </div>
+
+  <div class="card">
+    <h2>Turnos</h2>
+    <p>Consultas al 1234-5678</p>
+    <a class="btn" href="https://wa.me/54912345678">Reservar por WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Consultorio Dental - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
